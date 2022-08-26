@@ -1,0 +1,97 @@
+#page-header{
+    background-image: url(../Home/img/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px;
+    }
+    #page-header h2,p{
+        color: #fff;
+    }
+    /*************Pagination*********/
+    #pagination{
+        text-align: center;
+    }
+    #pagination a{
+        text-decoration: none;
+        background-color: #088178;
+        padding: 15px 20px;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: 600;
+    }
+    #pagination a i{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    /******sINGLE PRODUCT******/
+    #pro-detail .single-pro-image{
+        width: 40%;
+        margin-right: 50px;
+    }
+    .sm-img-group{
+        display: flex;
+        justify-content: space-between;
+    }
+    .sm-img-col{
+        flex-basis: 24%;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    #pro-detail{
+        display: flex;
+        margin-top: 20px;
+    }
+    #pro-detail .single-pro-details{
+        width: 50%;
+        padding-top: 30px;
+    }
+    #pro-detail .single-pro-details h4{
+        padding: 40px 0 20px 0;
+    }
+    #pro-detail .single-pro-details h2{
+        padding: 40px 0 20px 0;
+        font-size: 26px;
+    }
+    #pro-detail .single-pro-details select{
+        display: block;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+    #pro-detail .single-pro-details input,.pro-detail .single-pro-details input:focus{
+        height: 47px;
+        width: 50px;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-right: 10px;
+        outline: none;
+    }
+    #pro-detail .single-pro-details span{
+        line-height: 25px;
+    }
+    
+    #pro-detail .single-pro-details button{
+        background-color: #088178;
+        color: #fff;
+    }
+    .search{
+        
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .search-box{
+        width: 30%;
+        height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+  
+    border: 1px solid black;
+    border-radius: 4px;
+    outline: none;
+    }

@@ -1,0 +1,253 @@
+#blog-header{
+    background-image: url(../Home/img/b19.jpg);
+height: 40vh;
+width: 100%;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+padding: 14px;
+}
+#blog-header h2,p{
+    color: #fff;
+}
+#blog{
+    padding: 150px 150px 0 150px;
+}
+#blog .blog-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+#blog .blog-img{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog .blog-details{
+    width: 50%;
+}
+#blog .blog-details a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    font-weight:700;
+    position: relative;
+}
+#blog .blog-details a:hover{
+    color: #088178;
+    transition: .3s;
+}
+#blog .blog-details p{
+    color: #000;
+}
+#blog .blog-details a::after{
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+#blog .blog-box h1{
+    position: absolute;
+    top: -55px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700; 
+    color: #c9cbce;
+    z-index: -9;  
+}
+.blog-box{
+    position: relative;
+    padding-bottom: 90px;
+}
+#blog .blog-details a:hover::after{
+    background-color: #088178;
+}
+#blog img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-position: center;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+#pagination a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+@media (max-width:799px) {
+    #hero{
+     height: 70vh;
+     padding: 0 80px;
+     background-position: top 30% right 30%;
+    }
+    #feature{
+     justify-content: center;
+    }
+    #feature .feature-box{
+     margin: 15px 15px;
+    }
+    #product1 .pro{
+     margin: 15px;
+    }
+    #banner{
+     height: 20vh;
+    }
+    #sm-banner .banner-box{
+     min-width: 100%;
+     height: 30vh;
+    }
+    #banner3 .banner-box{
+     width: 28%;
+     background-position: center;
+     background-size: cover;
+    }
+    #news-letter .form{
+     width: 70%;
+    }
+    #contact-details .map img{
+     width: 100%;
+    }
+    #form-details{
+     padding: 40px;
+    }
+    #form-details form{
+     width: 50%;
+    }
+ }
+ @media (max-width:477px) {
+     #hero{
+         padding: 0 20px;
+         background-position: 55%;
+     }
+     h2{
+         font-size: 32px;
+     }
+     h1{
+         font-size: 38px;
+     }
+     .section-p1{
+         padding: 20px;
+     }
+     #features{
+         justify-content: space-between;
+     }
+     #features .feature-box{
+         width: 155px;
+         margin: 0 0 15px 0;
+     }
+     #product1 .pro{
+         width: 100%;
+     }
+     #banner{
+         height: 40vh;
+     }
+     #sm-banner .banner-box{
+         height: 40vh;
+     } 
+     #sm-banner .banner-box2{
+         margin-top: 20px;
+     }
+     #banner3{
+         padding: 0 20px;
+     }
+     #banner3 .banner-box{
+        width: 100%;
+     }
+     #news-letter .form{
+         width: 100%;
+     }
+     #new-letter{
+         padding: 40px 20px;
+     }
+     footer .logo{
+         display: none;
+     }
+     #pro-detail{
+         display: flex;
+         flex-direction: column;
+     }
+     #pro-detail .single-pro-image{
+         width: 100%;
+         margin-right: 50px;
+     }
+     #pro-detail .single-pro-details{
+         width: 100%;
+     }
+     #blog .blog-box{
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
+     }
+     #blog .blog-details{
+         width: 100%;
+     }
+     #blog{
+         padding: 100px 20px 0 20px;
+     }
+     #blog .blog-img{
+         margin-right: 0;
+         width: 100%;
+         margin-bottom: 30px;
+     }
+     #about-head{
+         flex-direction: column;
+     }
+     #about-head img{
+         width: 100%;
+         margin-bottom: 20px;
+     }
+     #about-head div{
+         padding-left: 0px;
+     }
+     #about-head .vedio{
+         width: 100%;
+     }
+     #contact-details{
+         display: flex;
+         flex-direction: column;
+     }
+     #contact-details .c-details{
+         width: 100%;
+         margin-bottom: 30px;
+     }
+     #contact-details .map img{
+         width: 100%;
+     }
+     #form-details{
+         margin: 10px;
+         padding: 30px 10px;
+         flex-wrap: wrap;
+     }
+     #form-details form{
+         width: 100%;
+         margin-bottom: 30px;
+     }
+     #cart-add{
+         
+         flex-direction: column;
+     }
+     #coupon{
+         width: 100%;
+     }
+     .sub-total{
+         padding: 20px;
+         width: 100%;
+     }
+ 
+ 
+ }
+ 
